@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/unbrain/zori#readme",
   "dependencies": {
-    "npm": "^6.4.0"
+    "npm": "^6.4.0",
+    "vue": "^2.5.17"
   }
 }
