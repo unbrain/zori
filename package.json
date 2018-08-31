@@ -26,5 +26,8 @@
     "node-sass": "^4.9.3",
     "parcel-bundler": "^1.9.7",
     "vue-template-compiler": "^2.5.17"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
   }
 }
