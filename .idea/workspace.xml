@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d1d03547-5ac5-4cb3-be6b-413f71a4f783" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,7 +68,7 @@
         <counts>
           <entry key="gitignore" value="16" />
           <entry key="html" value="465" />
-          <entry key="js" value="939" />
+          <entry key="js" value="1187" />
           <entry key="json" value="5" />
           <entry key="vue" value="1374" />
         </counts>
@@ -78,7 +77,7 @@
         <counts>
           <entry key="HTML" value="465" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="939" />
+          <entry key="JavaScript" value="1187" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="Vue.js" value="1311" />
           <entry key="yarn.lock" value="63" />
@@ -136,10 +135,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="877">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#305#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,11 +197,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="530" />
-    <option name="y" value="24" />
-    <option name="width" value="1390" />
-    <option name="height" value="1006" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -284,7 +283,7 @@
       <workItem from="1535523147549" duration="5145000" />
       <workItem from="1535683869198" duration="12341000" />
       <workItem from="1535716890608" duration="5948000" />
-      <workItem from="1535761337435" duration="5848000" />
+      <workItem from="1535761337435" duration="6700000" />
     </task>
     <task id="LOCAL-00001" summary="npm init">
       <created>1535524333849</created>
@@ -311,10 +310,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29282000" />
+    <option name="totallyTimeSpent" value="30134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="530" y="24" width="1390" height="1006" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1030" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -328,7 +327,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49926144" weight="0.32946634" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4996369" visible="true" weight="0.29816514" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4996369" visible="true" weight="0.29017857" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073856" side_tool="true" weight="0.32946634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,10 +452,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="877">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#305#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
