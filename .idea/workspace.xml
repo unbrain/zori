@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1d03547-5ac5-4cb3-be6b-413f71a4f783" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,29 +60,30 @@
     <session id="1467798967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="26" />
           <entry key="html" value="465" />
-          <entry key="js" value="1190" />
-          <entry key="json" value="5" />
-          <entry key="vue" value="1374" />
+          <entry key="js" value="1270" />
+          <entry key="json" value="38" />
+          <entry key="vue" value="1455" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="465" />
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="1190" />
+          <entry key="JSON" value="38" />
+          <entry key="JavaScript" value="1270" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Vue.js" value="1311" />
+          <entry key="Vue.js" value="1392" />
           <entry key="yarn.lock" value="63" />
         </counts>
       </usages-collector>
@@ -87,17 +91,17 @@
         <counts>
           <entry key="button-grounp" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="js" value="1" />
+          <entry key="js" value="4" />
           <entry key="json" value="3" />
-          <entry key="vue" value="5" />
+          <entry key="vue" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Vue.js" value="5" />
+          <entry key="Vue.js" value="6" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
@@ -108,7 +112,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
@@ -120,17 +124,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="182">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/button-group.vue">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/button.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="104">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,30 +150,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/button.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state relative-caret-position="364">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#305#328#0" expanded="true" />
+                <element signature="e#339#360#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icon.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#305#328#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,6 +182,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#i-</find>
+      <find>#i</find>
+      <find>settings</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#icon</replace>
+      <replace>setup</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,14 +201,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/icon.vue" />
-        <option value="$PROJECT_DIR$/src/button.vue" />
         <option value="$PROJECT_DIR$/src/button-grounp.vue" />
         <option value="$PROJECT_DIR$/src/button-group.vue" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/button.vue" />
+        <option value="$PROJECT_DIR$/test/button.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -209,7 +228,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
@@ -241,6 +260,11 @@
               <item name="zori" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="zori" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,10 +284,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;setback&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage&#10;reformat&#9;ACTION&#9;VimReformatVisual&#10;reforma&#9;ACTION&#9;ReformatCode&#10;refor&#9;ACTION&#9;ReformatCode&#10;ref&#9;ACTION&#9;ReformatCode" />
+    <property name="SearchEverywhereHistoryKey" value="replace&#9;ACTION&#9;Replace&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;setback&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage&#10;reformat&#9;ACTION&#9;VimReformatVisual&#10;reforma&#9;ACTION&#9;ReformatCode&#10;refor&#9;ACTION&#9;ReformatCode&#10;ref&#9;ACTION&#9;ReformatCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,7 +317,8 @@
       <workItem from="1535683869198" duration="12341000" />
       <workItem from="1535716890608" duration="5948000" />
       <workItem from="1535761337435" duration="8243000" />
-      <workItem from="1535777263290" duration="2678000" />
+      <workItem from="1535777263290" duration="4589000" />
+      <workItem from="1535789495574" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="npm init">
       <created>1535524333849</created>
@@ -318,10 +345,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34355000" />
+    <option name="totallyTimeSpent" value="38724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1030" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1030" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32932165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24945295" />
@@ -334,32 +362,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49926144" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" x="956" y="440" width="964" height="230" id="Terminal" order="9" sideWeight="0.4996369" visible="true" weight="0.2951192" />
+      <window_info anchor="bottom" x="956" y="440" width="964" height="230" id="Terminal" order="9" sideWeight="0.4996369" visible="true" weight="0.2935268" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073856" side_tool="true" weight="0.32946634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16083151" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.27461708" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49926144" weight="0.32946634" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4996369" visible="true" weight="0.29017857" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073856" side_tool="true" weight="0.32946634" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" weight="0.31619257" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -415,38 +424,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/button-grounp" />
-    <entry file="file://$PROJECT_DIR$/src/button-group.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#305#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/icon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -454,10 +431,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/button-group.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#339#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/button.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="182">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -465,6 +476,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#305#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
