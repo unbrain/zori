@@ -2,7 +2,7 @@
   "name": "zori",
   "version": "0.0.1",
   "description": "Wearing zori does not walk the sidewalk but go to the motorway",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache & karma start",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/unbrain/zori.git"
   },
-  "author": "mars",
+  "author": "marsorsun",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/unbrain/zori/issues"
