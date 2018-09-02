@@ -1,6 +1,6 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
-        <g-icon :icon="icon" v-if="icon"></g-icon>
+        <g-icon :icon="icon" v-if="icon && !loading"></g-icon>
         <g-icon v-if="loading" icon="loading" class="loading"></g-icon>
         <span class="content">
            <slot></slot>
@@ -78,6 +78,4 @@
             animation: spin 1s infinite linear;
         }
     }
-
-
 </style>
