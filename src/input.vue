@@ -1,8 +1,8 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" :class="{error}">
     <input type="text" :disabled="disabled" :readonly="readonly" :value="value" title="">
     <template v-if="error">
-      <g-icon icon="true" class="icon-error"></g-icon>
+      <g-icon icon="error" class="icon-error"></g-icon>
       <span class="errorMessage">{{error}}</span>
     </template>
   </div>
@@ -37,10 +37,11 @@
 <style scoped lang="scss">
   $height: 32px;
   $border-color: #AEAEAE;
-  $border-color-hover: #2D3E50;
+  $border-color-hover: #1BBC9B;
   $border-radius: 4px;
   $font-size: 12px;
   $box-shadow-color: rgba(20, 20, 20, 0.4);
+  $disabled-color: #465D4C;
   $red: #E64C66;
   .wrapper {font-size: $font-size;display: inline-flex;align-items: center;
     > :not(:last-child) {margin-right: 0.5em}
@@ -54,7 +55,7 @@
         border-color: $border-color-hover;
       }
       &:focus {box-shadow: inset 0 1px 3px $box-shadow-color;outline: none;}
-      &[disabled], &[readonly] {border-color: #373C38; color: #373C38;}
+      &[disabled], &[readonly] {border-color: $disabled-color; color: $disabled-color;cursor: default;}
     }
     &.error {
       > input {border-color: $red;}
