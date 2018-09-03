@@ -37,11 +37,11 @@
 <style scoped lang="scss">
   $height: 32px;
   $border-color: #AEAEAE;
-  $border-color-hover: #1BBC9B;
+  $border-color-hover: #566C73;
   $border-radius: 4px;
   $font-size: 12px;
   $box-shadow-color: rgba(20, 20, 20, 0.4);
-  $disabled-color: #465D4C;
+  $disabled-color: #aaa;
   $red: #E64C66;
   .wrapper {font-size: $font-size;display: inline-flex;align-items: center;
     > :not(:last-child) {margin-right: 0.5em}

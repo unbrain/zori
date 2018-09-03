@@ -15,10 +15,3 @@ new Vue({
     isloading: false,
   },
 })
-
-import Chai from 'chai'
-import Spies from 'chai-spies'
-
-Chai.use(Spies)
-
-const expect = Chai.expect
