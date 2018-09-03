@@ -50,10 +50,33 @@ describe('Input', () => {
       const useElement = vm.$el.querySelector('use')
       expect(useElement.getAttribute('xlink:href')).to.equal('#icon-error')
       const errElements = vm.$el.querySelector('.errorMessage')
-      console.log(errElements)
       expect(errElements.innerText).eq('errorMsg')
     })
-
   })
 
+  describe('event', () => {
+    const Constructor = Vue.extend(Input)
+    let vm
+    afterEach(() => {
+      vm.$destroy()
+    })
+    it('change/blur/focus/input', () => {
+      ['change', 'input', 'focus', 'blur']
+      .forEach((eventName) => {
+        vm = new Constructor({}).$mount()
+        const callback = sinon.fake();
+        vm.$on(eventName, callback)
+        //触发input的change 事件
+        let event = new Event(eventName);
+        Object.defineProperty(
+          event, 'target', {
+            value: {value: 'hi'}, enumerable: true
+          }
+        )
+        let inputElement = vm.$el.querySelector('input')
+        inputElement.dispatchEvent(event)
+        expect(callback).to.have.been.calledWith('hi')
+      })
+    })
+  })
 })
