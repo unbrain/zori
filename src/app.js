@@ -13,6 +13,7 @@ new Vue({
   el: '#app',
   data: {
     isloading: false,
+    msg: 'nihao'
   },
   methods: {
     inputChange (e) {
