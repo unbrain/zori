@@ -14,4 +14,9 @@ new Vue({
   data: {
     isloading: false,
   },
+  methods: {
+    inputChange (e) {
+      console.log(e)
+    },
+  },
 })
