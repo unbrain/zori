@@ -1,5 +1,5 @@
 <template>
-  <div class="row" :class="" :style="{marginLeft: -gutter/2+'px', marginRight: -gutter/2+'px'}">
+  <div class="row" :class="" :style="rowStyle">
     <slot></slot>
   </div>
 </template>
@@ -8,20 +8,26 @@
   export default {
     name: 'ZoriRow',
     props: {
-      gutter:{
-        type: [Number, String]
-      }
+      gutter: {
+        type: [Number, String],
+      },
     },
-    mounted(){
-      this.$children.forEach((vm)=>{
-        vm.gutter =this.gutter
+    mounted () {
+      this.$children.forEach((vm) => {
+        vm.gutter = this.gutter
       })
-    }
+    },
+    computed: {
+      rowStyle () {
+        let {gutter} = this
+        return {marginLeft: -gutter / 2 + 'px', marginRight: -gutter / 2 + 'px'}
+      },
+    },
   }
 </script>
 
 <style scoped lang="scss">
-  .row{
+  .row {
     display: flex;
   }
 </style>
