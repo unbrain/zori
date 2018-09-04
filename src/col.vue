@@ -1,5 +1,5 @@
 <template>
-  <div class="col" :class="[span &&`span-${span}`, offset && `offset-${offset}`]">
+  <div class="col" :class="[span &&`span-${span}`, offset && `offset-${offset}`]" :style="{marginLeft: gutter/2+'px', marginRight: gutter/2+'px'}">
     <slot></slot>
   </div>
 </template>
@@ -15,6 +15,11 @@
         type: [String, Number]
       }
     },
+    data() {
+      return{
+        gutter: 0,
+      }
+    }
   }
 </script>
 
