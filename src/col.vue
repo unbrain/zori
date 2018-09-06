@@ -36,7 +36,6 @@
 <style scoped lang="scss">
   .col {
     height: 48px;
-    width: 50%;
     $class-prefix: span-;
     @for $n from 1 through 24 {
       &.#{$class-prefix}#{$n} {
