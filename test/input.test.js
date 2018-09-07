@@ -42,6 +42,7 @@ describe('Input', () => {
       expect(inputElement.value).eq('hi')
     })
     it('error', () => {
+
       vm = new Constructor({
         propsData: {
           error: 'errorMsg',
