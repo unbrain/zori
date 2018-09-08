@@ -10,7 +10,7 @@
 
     html {--button-height: 32px;--font-size: 14px;--button-bg: white;--button-active-bg: #eee;--border-radius: 4px;--color: #333;--border-color: #999;--border-color-hover: #666;}
 
-    #app {margin: 20px;}
+    #app {}
 
     body {font-size: var(--font-size);}
 
@@ -21,53 +21,83 @@
       border: 1px solid #666;
       height: 20px;
     }
+
+    .lo {
+      height: 100vh;
+    }
+
+    .lo div {
+      min-height: 20vh;
+    }
+    .sider{
+      min-width: 20vw;
+      background: #69B0AC;
+    }
+    .header{
+      background: #268785;
+    }
+    .content {
+      background: #66BAB7;
+    }
+    .footer {
+      background: #A5DEE4;
+    }
   </style>
   <title>ZORI</title></head>
 <body>
 <div id="app">
+  <g-layout class="lo">
+    <g-sider>sider</g-sider>
+    <g-layout>
+      <g-header>header</g-header>
+      <g-content>content</g-content>
+      <g-footer>footer</g-footer>
+    </g-layout>
+  </g-layout>
+
   <div class="group">
     <g-row>
       <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
-      <g-col span="24"  :ipad="{span:12}" :narrow-pc="{span:8}">
+      <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
-      <g-col span="24"  :ipad="{span:12}" :narrow-pc="{span:8}">
+      <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
-      <g-col span="24"  :ipad="{span:12}" :narrow-pc="{span:8}">
+      <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
-      <g-col span="24"  :ipad="{span:12}" :narrow-pc="{span:8}">
+      <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
-      <g-col span="24"  :ipad="{span:12}" :narrow-pc="{span:8}">
+      <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
         <div class="demo"></div>
       </g-col>
     </g-row>
     <!--<g-row gutter="10" align="right">-->
-      <!--<g-col span="12">1</g-col>-->
-      <!--<g-col span="12">2</g-col>-->
+    <!--<g-col span="12">1</g-col>-->
+    <!--<g-col span="12">2</g-col>-->
     <!--</g-row>-->
     <!--<g-row>-->
-      <!--<g-col span="8">1</g-col>-->
-      <!--<g-col span="8">2</g-col>-->
-      <!--<g-col span="8">3</g-col>-->
+    <!--<g-col span="8">1</g-col>-->
+    <!--<g-col span="8">2</g-col>-->
+    <!--<g-col span="8">3</g-col>-->
     <!--</g-row>-->
     <!--<g-row>-->
-      <!--<g-col span="6">1</g-col>-->
-      <!--<g-col span="6">2</g-col>-->
-      <!--<g-col span="6">3</g-col>-->
-      <!--<g-col span="6">4</g-col>-->
+    <!--<g-col span="6">1</g-col>-->
+    <!--<g-col span="6">2</g-col>-->
+    <!--<g-col span="6">3</g-col>-->
+    <!--<g-col span="6">4</g-col>-->
     <!--</g-row>-->
     <!--<g-row>-->
-      <!--<g-col span="2">1</g-col>-->
-      <!--<g-col span="22">2</g-col>-->
+    <!--<g-col span="2">1</g-col>-->
+    <!--<g-col span="22">2</g-col>-->
     <!--</g-row>-->
     <!--<g-row>-->
-      <!--<g-col span="2">1</g-col>-->
-      <!--<g-col span="20" offset="2">2</g-col>-->
+    <!--<g-col span="2">1</g-col>-->
+    <!--<g-col span="20" offset="2">2</g-col>-->
     <!--</g-row>-->
   </div>
   <!--<div class="group">-->
