@@ -39,6 +39,6 @@ new Vue({
     },
   },
   created(){
-    this.$toast('nihao')
+    this.$toast('<strong>nihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihaonihao</strong>', {autoClose: false, enableHtml: true})
   }
 })
